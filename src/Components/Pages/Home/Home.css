@@ -1,0 +1,73 @@
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+   color: black;
+}
+
+.Home .NavLink {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Home  .NavLink.disabled {
+    color: gray;
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.DisplayWeatherDiv{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: pumpkin;
+    margin-right: 10px;
+    background-color: #d8a50e; /* yellow */
+    color: #1b2838; /* dark blue for contrast */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 25px; /* Adjusts font size */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #e6b800; 
+    color: #ffffff;
+}
+
+button:active {
+    background-color: #d8a50e; 
+    color: #ffffff;
+}
+
+input[type="text"] {
+    font-size: 20px; /* Adjust font size */
+    padding: 10px;
+    border: 1px solid #cccccc; 
+    border-radius: 10px;
+    color: #1b2838; 
+    background-color: white;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #ffcc00; /* yellow on focus */
+    outline: none;
+}
+
+img {
+    height: 350px;
+}
+
+.Home > .NavLink {
+    font-family: pumpkin;
+    font-size: 27px;
+    padding: 10px;
+}

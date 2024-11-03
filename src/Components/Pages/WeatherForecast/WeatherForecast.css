@@ -1,0 +1,21 @@
+.YAxis, .XAxis, .Legend {
+    font-size: 20px;
+    color: black;
+}
+
+.graphDiv {
+    width: 70%;
+    height: 450px;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: pumpkin;
+    src: url(../../../Assets/Fonts/Witchy\ Pumpkin.otf);
+}
+
+.backButton {
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: pumpkin;
+}

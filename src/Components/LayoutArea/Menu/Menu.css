@@ -1,0 +1,35 @@
+.Menu {
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    gap: 30px;
+    font-family: pumpkin;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+@font-face {
+    font-family: pumpkin;
+    src: url(../../../Assets/Fonts/Witchy\ Pumpkin.otf);
+}
+
+.Menu .NavLink {
+    font-size: 32px;
+    color: black; 
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.NavLink:hover {
+    color: #363663; 
+    background-color: #d8a50e; 
+    border-radius: 5px;
+}
+
+.Menu img {
+    border-radius: 20px;
+}
+
