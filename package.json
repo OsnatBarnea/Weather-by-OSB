@@ -55,6 +55,17 @@
         "eslint": "^8.0.0",
         "eslint-plugin-react": "^7.0.0"
       },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/OsnatBarnea/weather-by-osb"
+    },
+    "homepage": "https://OsnatBarnea.github.io/weather-by-osb",
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
     "browserslist": {
       "production": [
         ">0.2%",
