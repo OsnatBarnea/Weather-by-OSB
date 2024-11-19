@@ -12,13 +12,12 @@ export function Routing(): JSX.Element {
 
     return (
         <div className="Routing">
-			<Routes>
-            {/* <Menu city={city}/> */}
-            <Route path="/" element={<Home />}/>
-                <Route path="/home" element={<Home />}/>
-                <Route path="/Three-days-forecast" element={<WeatherForecast/>}/>
-                <Route path="/about" element={<About/>}/>
-                <Route path="*" element={<Page404/>}/>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/Three-days-forecast" element={<WeatherForecast />} />
+                <Route path="/about" element={<About />} />
+                <Route path="*" element={<Page404 />} />
             </Routes>
         </div>
     );

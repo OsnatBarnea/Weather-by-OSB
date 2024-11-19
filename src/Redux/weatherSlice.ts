@@ -13,8 +13,9 @@ export function updateWeatherInRedux(currentState: WeatherModel, action: Payload
     return newState
 }
 
-export function deleteWeatherInRedux(currentState: WeatherModel, action: PayloadAction<WeatherModel>): WeatherModel {
-    return ;
+export function deleteWeatherInRedux(currentState: WeatherModel, action: PayloadAction<number>): WeatherModel {
+    const newState = {};
+    return newState;
 }
 
 export const weatherSlice = createSlice({
